@@ -3,7 +3,10 @@ grid_card
 
 Alfred workflow for reading your grid card
 
-To import into Alfred, download "Grid Card.alfredworkflow" (view raw from GitHub) and open, Alfred should import it.
+Download worflow now:
+https://github.com/kimdbarnes/grid_card/blob/master/Grid%20Card.alfredworkflow?raw=true
+
+To import into Alfred, download "Grid Card.alfredworkflow" and open, Alfred should import it.
 
 Open the ruby script step and change the grid_card_values list to your values - make sure to convert your grid card properly.
 

@@ -20,3 +20,4 @@ Run alfred and type "grid" with your challenge coordinates, e.g.: "grid a1 a2 a3
 Possible improvements:
 * Open grid card from a file
 * Handle format directly as Iain sends it 
+* Code improvements?

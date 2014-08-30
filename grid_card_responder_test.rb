@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative 'grid_card_responder'
 
-class GridCardResponderTest < MiniTest::TestCase
+class GridCardResponderTest < MiniTest::Test
   def setup
     @grid_card_values = GridCardResponder.new('./grid_card')
   end

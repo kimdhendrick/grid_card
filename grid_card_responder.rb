@@ -1,6 +1,8 @@
 class GridCardResponder
-  def initialize(grid_card_values)
-    @grid_card_values = grid_card_values
+  def initialize(filename = '~/.grid_card')
+    @grid_card_values = File.open(File.expand_path(filename)).map do |row|
+      row.chars
+    end
   end
 
   def respond_to(challenge_string)
